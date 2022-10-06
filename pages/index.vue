@@ -5,19 +5,20 @@
         Hi there: {{ counter }}
       </div>
       <div>
-        <button @click="counter++">Inc</button>
+        <button @click="increment">Inc</button>
       </div>
     </Tutorial>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage',
-  data() {
-    return {
-      counter: 0
-    }
-  }
+<script setup>
+import { useVuex } from 'nuxt-use-vuex'
+
+const store = useVuex()
+
+const counter = computed(() => store.state.counter)
+
+function increment() {
+  store.commit('increment')
 }
 </script>

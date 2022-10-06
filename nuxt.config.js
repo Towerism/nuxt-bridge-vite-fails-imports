@@ -5,6 +5,10 @@ export default defineNuxtConfig({
   components: true,
   bridge: {
     nitro: false,
-    vite: true
+    vite: false
+  },
+  ssr: false,
+  app: {
+    baseURL: ''
   }
 })

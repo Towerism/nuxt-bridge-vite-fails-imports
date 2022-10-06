@@ -9,7 +9,8 @@
     "generate": "nuxi generate"
   },
   "dependencies": {
-    "nuxt-edge": "latest"
+    "nuxt-edge": "latest",
+    "nuxt-use-vuex": "file:.yalc/nuxt-use-vuex"
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest"

@@ -6570,6 +6570,9 @@ nuxt-edge@latest:
     "@nuxt/vue-renderer-edge" "2.16.0-27720022.54e852f"
     "@nuxt/webpack-edge" "2.16.0-27720022.54e852f"
 
+"nuxt-use-vuex@file:.yalc/nuxt-use-vuex":
+  version "1.0.0"
+
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
