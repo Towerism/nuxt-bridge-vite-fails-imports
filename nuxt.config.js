@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   components: true,
   bridge: {
     nitro: false,
-    vite: false
+    vite: true
   },
   ssr: false,
   app: {
